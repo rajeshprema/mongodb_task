@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+[
+{
+"id": "1",
+"product_name": "Intelligent Fresh Chips",
+"product_price": 655.00,
+"product_material": "Concrete",
+"product_color": "mint green"
+},
+{
+"id": "2",
+"product_name": "Practical Fresh Sausages",
+"product_price": 911.0,
+"product_material": "Cotton",
+"product_color": "indigo"
+},
+{
+"id": "3",
+"product_name": "Refined Steel Car",
+"product_price": 690.00,
+"product_material": "Rubber",
+"product_color": "gold"
+},
+{
+"id": "4",
+"product_name": "Gorgeous Plastic Pants",
+"product_price": 492.00,
+"product_material": "Soft",
+"product_color": "plum"
+},
+{
+"id": "5",
+"product_name": "Sleek Cotton Chair",
+"product_price": 33.00,
+"product_material": "Fresh",
+"product_color": "black"
+},
+{
+"id": "6",
+"product_name": "Awesome Wooden Towels",
+"product_price": 474.00,
+"product_material": "Plastic",
+"product_color": "orange"
+},
+{
+"id": "7",
+"product_name": "Practical Soft Shoes",
+"product_price": 500.00,
+"product_material": "Rubber",
+"product_color": "pink"
+},
+{
+"id": "8",
+"product_name": "Incredible Steel Hat",
+"product_price": 78.00,
+"product_material": "Rubber",
+"product_color": "violet"
+},
+{
+"id": "9",
+"product_name": "Awesome Wooden Ball",
+"product_price": 28.00,
+"product_material": "Soft",
+"product_color": "azure"
+},
+{
+"id": "10",
+"product_name": "Generic Wooden Pizza",
+"product_price": 84.00,
+"product_material": "Frozen",
+"product_color": "indigo"
+},
+{
+"id": "11",
+"product_name": "Unbranded Wooden Cheese",
+"product_price":26.00,
+"product_material": "Soft",
+"product_color": "black"
+},
+{
+"id": "12",
+"product_name": "Unbranded Plastic Salad",
+"product_price": 89.00,
+"product_material": "Wooden",
+"product_color": "pink"
+},
+{
+"id": "13",
+"product_name": "Gorgeous Cotton Keyboard",
+"product_price": 37.00,
+"product_material": "Concrete",
+"product_color": "sky blue"
+},
+{
+"id": "14",
+"product_name": "Incredible Steel Shirt",
+"product_price": 54.00,
+"product_material": "Metal",
+"product_color": "white"
+},
+{
+"id": "15",
+"product_name": "Ergonomic Cotton Hat",
+"product_price": 43.00,
+"product_material": "Rubber",
+"product_color": "mint green"
+},
+{
+"id": "16",
+"product_name": "Small Soft Chair",
+"product_price": 47.00,
+"product_material": "Cotton",
+"product_color": "teal"
+},
+{
+"id": "17",
+"product_name": "Incredible Metal Car",
+"product_price":36.00,
+"product_material": "Fresh",
+"product_color": "indigo"
+},
+{
+"id": "18",
+"product_name": "Licensed Plastic Bacon",
+"product_price":88.00,
+"product_material": "Steel",
+"product_color": "yellow"
+},
+{
+"id": "19",
+"product_name": "Intelligent Cotton Chips",
+"product_price": 46.00,
+"product_material": "Soft",
+"product_color": "azure"
+},
+{
+"id": "20",
+"product_name": "Handcrafted Wooden Bacon",
+"product_price": 36.00,
+"product_material": "Concrete",
+"product_color": "lime"
+},
+{
+"id": "21",
+"product_name": "Unbranded Granite Chicken",
+"product_price": 90.00,
+"product_material": "Metal",
+"product_color": "gold"
+},
+{
+"id": "22",
+"product_name": "Ergonomic Soft Hat",
+"product_price": 99.00,
+"product_material": "Rubber",
+"product_color": "black"
+},
+{
+"id": "23",
+"product_name": "Intelligent Steel Pizza",
+"product_price": 95.00,
+"product_material": "Cotton",
+"product_color": "azure"
+},
+{
+"id": "24",
+"product_name": "Tasty Rubber Cheese",
+"product_price":47.00,
+"product_material": "Frozen",
+"product_color": "orchid"
+},
+{
+"id": "25",
+"product_name": "Licensed Steel Car",
+"product_price":20.00,
+"product_material": "Cotton",
+"product_color": "indigo"
+}
+]
+
+
+
+
+
+
+    dbs> db.products.insertMany(
+    ... [{
+    ... "id": "1",
+    ... "product_name": "Intelligent Fresh Chips",
+    ... "product_price": 655.00,
+    ... "product_material": "Concrete",
+    ... "product_color": "mint green"
+    ... },
+    ... {
+    ... "id": "2",
+    ... "product_name": "Practical Fresh Sausages",
+    ... "product_price": 911.0,
+    ... "product_material": "Cotton",
+    ... "product_color": "indigo"
+    ... },
+    ... {
+    ... "id": "3",
+    ... "product_name": "Refined Steel Car",
+    ... "product_price": 690.00,
+    ... "product_material": "Rubber",
+    ... "product_color": "gold"
+    ... },
+    ... {
+    ... "id": "4",
+    ... "product_name": "Gorgeous Plastic Pants",
+    ... "product_price": 492.00,
+    ... "product_material": "Soft",
+    ... "product_color": "plum"
+    ... },
+    ... {
+    ... "id": "5",
+    ... "product_name": "Sleek Cotton Chair",
+    ... "product_price": 33.00,
+    ... "product_material": "Fresh",
+    ... "product_color": "black"
+    ... },
+    ... {
+    ... "id": "6",
+    ... "product_name": "Awesome Wooden Towels",
+    ... "product_price": 474.00,
+    ... "product_material": "Plastic",
+    ... "product_color": "orange"
+    ... },
+    ... {
+    ... "id": "7",
+    ... "product_name": "Practical Soft Shoes",
+    ... "product_price": 500.00,
+    ... "product_material": "Rubber",
+    ... "product_color": "pink"
+    ... },
+    ... {
+    ... "id": "8",
+    ... "product_name": "Incredible Steel Hat",
+    ... "product_price": 78.00,
+    ... "product_material": "Rubber",
+    ... "product_color": "violet"
+    ... },
+    ... {
+    ... "id": "9",
+    ... "product_name": "Awesome Wooden Ball",
+    ... "product_price": 28.00,
+    ... "product_material": "Soft",
+    ... "product_color": "azure"
+    ... },
+    ... {
+    ... "id": "10",
+    ... "product_name": "Generic Wooden Pizza",
+    ... "product_price": 84.00,
+    ... "product_material": "Frozen",
+    ... "product_color": "indigo"
+    ... },
+    ... {
+    ... "id": "11",
+    ... "product_name": "Unbranded Wooden Cheese",
+    ... "product_price":26.00,
+    ... "product_material": "Soft",
+    ... "product_color": "black"
+    ... },
+    ... {
+    ... "id": "12",
+    ... "product_name": "Unbranded Plastic Salad",
+    ... "product_price": 89.00,
+    ... "product_material": "Wooden",
+    ... "product_color": "pink"
+    ... },
+    ... {
+    ... "id": "13",
+    ... "product_name": "Gorgeous Cotton Keyboard",
+    ... "product_price": 37.00,
+    ... "product_material": "Concrete",
+    ... "product_color": "sky blue"
+    ... },
+    ... {
+    ... "id": "14",
+    ... "product_name": "Incredible Steel Shirt",
+    ... "product_price": 54.00,
+    ... "product_material": "Metal",
+    ... "product_color": "white"
+    ... },
+    ... {
+    ... "id": "15",
+    ... "product_name": "Ergonomic Cotton Hat",
+    ... "product_price": 43.00,
+    ... "product_material": "Rubber",
+    ... "product_color": "mint green"
+    ... },
+    ... {
+    ... "id": "16",
+    ... "product_name": "Small Soft Chair",
+    ... "product_price": 47.00,
+    ... "product_material": "Cotton",
+    ... "product_color": "teal"
+    ... },
+    ... {
+    ... "id": "17",
+    ... "product_name": "Incredible Metal Car",
+    ... "product_price":36.00,
+    ... "product_material": "Fresh",
+    ... "product_color": "indigo"
+    ... },
+    ... {
+    ... "id": "18",
+    ... "product_name": "Licensed Plastic Bacon",
+    ... "product_price":88.00,
+    ... "product_material": "Steel",
+    ... "product_color": "yellow"
+    ... },
+    ... {
+    ... "id": "19",
+    ... "product_name": "Intelligent Cotton Chips",
+    ... "product_price": 46.00,
+    ... "product_material": "Soft",
+    ... "product_color": "azure"
+    ... },
+    ... {
+    ... "id": "20",
+    ... "product_name": "Handcrafted Wooden Bacon",
+    ... "product_price": 36.00,
+    ... "product_material": "Concrete",
+    ... "product_color": "lime"
+    ... },
+    ... {
+    ... "id": "21",
+    ... "product_name": "Unbranded Granite Chicken",
+    ... "product_price": 90.00,
+    ... "product_material": "Metal",
+    ... "product_color": "gold"
+    ... },
+    ... {
+    ... "id": "22",
+    ... "product_name": "Ergonomic Soft Hat",
+    ... "product_price": 99.00,
+    ... "product_material": "Rubber",
+    ... "product_color": "black"
+    ... },
+    ... {
+    ... "id": "23",
+    ... "product_name": "Intelligent Steel Pizza",
+    ... "product_price": 95.00,
+    ... "product_material": "Cotton",
+    ... "product_color": "azure"
+    ... },
+    ... {
+    ... "id": "24",
+    ... "product_name": "Tasty Rubber Cheese",
+    ... "product_price":47.00,
+    ... "product_material": "Frozen",
+    ... "product_color": "orchid"
+    ... },
+    ... {
+    ... "id": "25",
+    ... "product_name": "Licensed Steel Car",
+    ... "product_price":20.00,
+    ... "product_material": "Cotton",
+    ... "product_color": "indigo"
+    ... }
+    ... ])
+    {
+    acknowledged: true,
+    insertedIds: {
+    '0': ObjectId("6559a06ca966d2263caf0dfc"),
+    '1': ObjectId("6559a06ca966d2263caf0dfd"),
+    '2': ObjectId("6559a06ca966d2263caf0dfe"),
+    '3': ObjectId("6559a06ca966d2263caf0dff"),
+    '4': ObjectId("6559a06ca966d2263caf0e00"),
+    '5': ObjectId("6559a06ca966d2263caf0e01"),
+    '6': ObjectId("6559a06ca966d2263caf0e02"),
+    '7': ObjectId("6559a06ca966d2263caf0e03"),
+    '8': ObjectId("6559a06ca966d2263caf0e04"),
+    '9': ObjectId("6559a06ca966d2263caf0e05"),
+    '10': ObjectId("6559a06ca966d2263caf0e06"),
+    '11': ObjectId("6559a06ca966d2263caf0e07"),
+    '12': ObjectId("6559a06ca966d2263caf0e08"),
+    '13': ObjectId("6559a06ca966d2263caf0e09"),
+    '14': ObjectId("6559a06ca966d2263caf0e0a"),
+    '15': ObjectId("6559a06ca966d2263caf0e0b"),
+    '16': ObjectId("6559a06ca966d2263caf0e0c"),
+    '17': ObjectId("6559a06ca966d2263caf0e0d"),
+    '18': ObjectId("6559a06ca966d2263caf0e0e"),
+    '19': ObjectId("6559a06ca966d2263caf0e0f"),
+    '20': ObjectId("6559a06ca966d2263caf0e10"),
+    '21': ObjectId("6559a06ca966d2263caf0e11"),
+    '22': ObjectId("6559a06ca966d2263caf0e12"),
+    '23': ObjectId("6559a06ca966d2263caf0e13"),
+    '24': ObjectId("6559a06ca966d2263caf0e14")
+    }
+
+ 2,find the product price which are between 400 to 500
+
+
+    dbs> db.products.find({product_price:{$gt:40, $lt:80}})
+    [
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e03"),
+    id: '8',
+    product_name: 'Incredible Steel Hat',
+    product_price: 78,
+    product_material: 'Rubber',
+    product_color: 'violet'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e09"),
+    id: '14',
+    product_name: 'Incredible Steel Shirt',
+    product_price: 54,
+    product_material: 'Metal',
+    product_color: 'white'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0a"),
+    id: '15',
+    product_name: 'Ergonomic Cotton Hat',
+    product_price: 43,
+    product_material: 'Rubber',
+    product_color: 'mint green'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0b"),
+    id: '16',
+    product_name: 'Small Soft Chair',
+    product_price: 47,
+    product_material: 'Cotton',
+    product_color: 'teal'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0e"),
+        id: '19',
+        product_name: 'Intelligent Cotton Chips',
+        product_price: 46,
+        product_material: 'Soft',
+        product_color: 'azure'
+        },
+        {
+        _id: ObjectId("6559a06ca966d2263caf0e13"),
+        id: '24',
+        product_name: 'Tasty Rubber Cheese',
+        product_price: 47,
+        product_material: 'Frozen',
+        product_color: 'orchid'
+        }
+    3,find the produt price which are not between 400 to 600
+     dbs> db.product.find({product_price:{$not:{$gt:40, $lt:60}}})
+
+    id: ObjectId("6559a06ca966d2263caf0dfc"),
+    id: '1',
+    product_name: 'Intelligent Fresh Chips',
+    product_price: 655,
+    product_material: 'Concrete',
+    product_color: 'mint green'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0dfd"),
+    id: '2',
+    product_name: 'Practical Fresh Sausages',
+    product_price: 911,
+    product_material: 'Cotton',
+    product_color: 'indigo'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0dfe"),
+    id: '3',
+    product_name: 'Refined Steel Car',
+    product_price: 690,
+    product_material: 'Rubber',
+    product_color: 'gold'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0dff"),
+    id: '4',
+    product_name: 'Gorgeous Plastic Pants',
+    product_price: 492,
+    product_material: 'Soft',
+    product_color: 'plum'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e00"),
+    id: '5',
+    product_name: 'Sleek Cotton Chair',
+    product_price: 33,
+    product_material: 'Fresh',
+    product_color: 'black'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e01"),
+    id: '6',
+    product_name: 'Awesome Wooden Towels',
+    product_price: 474,
+    product_material: 'Plastic',
+    product_color: 'orange'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e02"),
+    id: '7',
+    product_name: 'Practical Soft Shoes',
+    product_price: 500,
+    product_material: 'Rubber',
+    product_color: 'pink'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e03"),
+    id: '8',
+    product_name: 'Incredible Steel Hat',
+    product_price: 78,
+    product_material: 'Rubber',
+    product_color: 'violet'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e04"),
+    id: '9',
+    product_name: 'Awesome Wooden Ball',
+    product_price: 28,
+    product_material: 'Soft',
+    product_color: 'azure'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e05"),
+    id: '10',
+    product_name: 'Generic Wooden Pizza',
+    product_price: 84,
+    product_material: 'Frozen',
+    product_color: 'indigo'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e06"),
+    id: '11',
+    product_name: 'Unbranded Wooden Cheese',
+    product_price: 26,
+    product_material: 'Soft',
+    product_color: 'black'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e07"),
+    id: '12',
+    product_name: 'Unbranded Plastic Salad',
+    product_price: 89,
+    product_material: 'Wooden',
+    product_color: 'pink'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e08"),
+    id: '13',
+    product_name: 'Gorgeous Cotton Keyboard',
+    product_price: 37,
+    product_material: 'Concrete',
+    product_color: 'sky blue'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0c"),
+    id: '17',
+    product_name: 'Incredible Metal Car',
+    product_price: 36,
+    product_material: 'Fresh',
+    product_color: 'indigo'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0d"),
+    id: '18',
+    product_name: 'Licensed Plastic Bacon',
+    product_price: 88,
+    product_material: 'Steel',
+    product_color: 'yellow'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e0f"),
+    id: '20',
+    product_name: 'Handcrafted Wooden Bacon',
+    product_price: 36,
+    product_material: 'Concrete',
+    product_color: 'lime'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e10"),
+    id: '21',
+    product_name: 'Unbranded Granite Chicken',
+    product_price: 90,
+    product_material: 'Metal',
+    product_color: 'gold'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e11"),
+    id: '22',
+    product_name: 'Ergonomic Soft Hat',
+    product_price: 99,
+    product_material: 'Rubber',
+    product_color: 'black'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e12"),
+    id: '23',
+    product_name: 'Intelligent Steel Pizza',
+    product_price: 95,
+    product_material: 'Cotton',
+    product_color: 'azure'
+    },
+    {
+    _id: ObjectId("6559a06ca966d2263caf0e14"),
+    id: '25',
+    product_name: 'Licensed Steel Car',
+    product_price: 20,
+    product_material: 'Cotton',
+    product_color: 'indigo'
+    }
+    ]
+  4.  list the four product which are grater then 500 in price 
+
+    dbs> db.products.find({product_price:{$gt:500}})
+
+db.products.find({product_price:{$gt:500}})
+[
+{
+_id: ObjectId("6559a06ca966d2263caf0dfc"),
+id: '1',
+product_name: 'Intelligent Fresh Chips',
+product_price: 655,
+product_material: 'Concrete',
+product_color: 'mint green'
+},
+{
+_id: ObjectId("6559a06ca966d2263caf0dfd"),
+id: '2',
+product_name: 'Practical Fresh Sausages',
+product_price: 911,
+product_material: 'Cotton',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("6559a06ca966d2263caf0dfe"),
+id: '3',
+product_name: 'Refined Steel Car',
+product_price: 690,
+product_material: 'Rubber',
+product_color: 'gold'
+}
+]
+
+    
+ 5Find the product name and product material of each products
+
+db.product.find({}, { product_name: 1, product_material: 1, _id: 0 })
+[
+{
+product_name: 'Intelligent Fresh Chips',
+product_material: 'Concrete'
+},
+{
+product_name: 'Practical Fresh Sausages',
+product_material: 'Cotton'
+},
+{ product_name: 'Refined Steel Car', product_material: 'Rubber' },
+{ product_name: 'Gorgeous Plastic Pants', product_material: 'Soft' },
+{ product_name: 'Sleek Cotton Chair', product_material: 'Fresh' },
+{
+product_name: 'Awesome Wooden Towels',
+product_material: 'Plastic'
+},
+{ product_name: 'Practical Soft Shoes', product_material: 'Rubber' },
+{ product_name: 'Incredible Steel Hat', product_material: 'Rubber' },
+{ product_name: 'Awesome Wooden Ball', product_material: 'Soft' },
+{ product_name: 'Generic Wooden Pizza', product_material: 'Frozen' },
+{ product_name: 'Unbranded Wooden Cheese', product_material: 'Soft' },
+{
+product_name: 'Unbranded Plastic Salad',
+product_material: 'Wooden'
+},
+{
+product_name: 'Gorgeous Cotton Keyboard',
+product_material: 'Concrete'
+},
+{ product_name: 'Incredible Steel Shirt', product_material: 'Metal' },
+{ product_name: 'Ergonomic Cotton Hat', product_material: 'Rubber' },
+{ product_name: 'Small Soft Chair', product_material: 'Cotton' },
+{ product_name: 'Incredible Metal Car', product_material: 'Fresh' },
+{ product_name: 'Licensed Plastic Bacon', product_material: 'Steel' },
+{
+product_name: 'Intelligent Cotton Chips',
+product_material: 'Soft'
+},
+{
+product_name: 'Handcrafted Wooden Bacon',
+product_material: 'Concrete'
+}
+]
+
+6.Find the product with a row id of 10
+db.product.find().sort({id:1}).limit(10)
+[
+{
+_id: ObjectId("655a3b9cb3b603c72df6d77a"),
+id: '1',
+product_name: 'Intelligent Fresh Chips',
+product_price: 655,
+product_material: 'Concrete',
+product_color: 'mint green'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d657"),
+id: '1',
+product_name: 'Intelligent Fresh Chips',
+product_price: 655,
+product_material: 'Concrete',
+product_color: 'mint green'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed25c"),
+id: '1',
+product_name: 'Intelligent Fresh Chips',
+product_price: 655,
+product_material: 'Concrete',
+product_color: 'mint green'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d660"),
+id: '10',
+product_name: 'Generic Wooden Pizza',
+product_price: 84,
+product_material: 'Frozen',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d783"),
+id: '10',
+product_name: 'Generic Wooden Pizza',
+product_price: 84,
+product_material: 'Frozen',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed265"),
+id: '10',
+product_name: 'Generic Wooden Pizza',
+product_price: 84,
+product_material: 'Frozen',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d661"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed266"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d784"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d785"),
+id: '12',
+product_name: 'Unbranded Plastic Salad',
+product_price: 89,
+product_material: 'Wooden',
+product_color: 'pink'
+}
+]
+
+
+
+
+
+
+
+
+ 7Find only the product name and product material
+
+
+[
+{
+product_name: 'Intelligent Fresh Chips',
+product_material: 'Concrete'
+},
+{
+product_name: 'Practical Fresh Sausages',
+product_material: 'Cotton'
+},
+{ product_name: 'Refined Steel Car', product_material: 'Rubber' },
+{ product_name: 'Gorgeous Plastic Pants', product_material: 'Soft' },
+{ product_name: 'Sleek Cotton Chair', product_material: 'Fresh' },
+{
+product_name: 'Awesome Wooden Towels',
+product_material: 'Plastic'
+},
+{ product_name: 'Practical Soft Shoes', product_material: 'Rubber' },
+{ product_name: 'Incredible Steel Hat', product_material: 'Rubber' },
+{ product_name: 'Awesome Wooden Ball', product_material: 'Soft' },
+{ product_name: 'Generic Wooden Pizza', product_material: 'Frozen' },
+{ product_name: 'Unbranded Wooden Cheese', product_material: 'Soft' },
+{
+product_name: 'Unbranded Plastic Salad',
+product_material: 'Wooden'
+},
+{
+product_name: 'Gorgeous Cotton Keyboard',
+product_material: 'Concrete'
+},
+{ product_name: 'Incredible Steel Shirt', product_material: 'Metal' },
+{ product_name: 'Ergonomic Cotton Hat', product_material: 'Rubber' },
+{ product_name: 'Small Soft Chair', product_material: 'Cotton' },
+{ product_name: 'Incredible Metal Car', product_material: 'Fresh' },
+{ product_name: 'Licensed Plastic Bacon', product_material: 'Steel' },
+{
+product_name: 'Intelligent Cotton Chips',
+product_material: 'Soft'
+},
+{
+product_name: 'Handcrafted Wooden Bacon',
+product_material: 'Concrete'
+}
+]
+
+8 Find all products which contain the value of soft in product material
+
+db.product.find({ product_material: { $regex: /soft/i } })
+[
+{
+_id: ObjectId("655a3b9cb3b603c72df6d77d"),
+id: '4',
+product_name: 'Gorgeous Plastic Pants',
+product_price: 492,
+product_material: 'Soft',
+product_color: 'plum'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d782"),
+id: '9',
+product_name: 'Awesome Wooden Ball',
+product_price: 28,
+product_material: 'Soft',
+product_color: 'azure'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d784"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655a3b9cb3b603c72df6d78c"),
+id: '19',
+product_name: 'Intelligent Cotton Chips',
+product_price: 46,
+product_material: 'Soft',
+product_color: 'azure'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed25f"),
+id: '4',
+product_name: 'Gorgeous Plastic Pants',
+product_price: 492,
+product_material: 'Soft',
+product_color: 'plum'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed264"),
+id: '9',
+product_name: 'Awesome Wooden Ball',
+product_price: 28,
+product_material: 'Soft',
+product_color: 'azure'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed266"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655ab4d6c747bc37648ed26e"),
+id: '19',
+product_name: 'Intelligent Cotton Chips',
+product_price: 46,
+product_material: 'Soft',
+product_color: 'azure'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d65a"),
+id: '4',
+product_name: 'Gorgeous Plastic Pants',
+product_price: 492,
+product_material: 'Soft',
+product_color: 'plum'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d65f"),
+id: '9',
+product_name: 'Awesome Wooden Ball',
+product_price: 28,
+product_material: 'Soft',
+product_color: 'azure'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d661"),
+id: '11',
+product_name: 'Unbranded Wooden Cheese',
+product_price: 26,
+product_material: 'Soft',
+product_color: 'black'
+},
+{
+_id: ObjectId("655b6495b6c10a755512d669"),
+id: '19',
+product_name: 'Intelligent Cotton Chips',
+product_price: 46,
+product_material: 'Soft',
+product_color: 'azure'
+}
+]
+<!-- ----------------------------------------9
+[
+{
+_id: ObjectId("65aa97989064816bae423f20"),
+id: '2',
+product_name: 'Practical Fresh Sausages',
+product_price: 911,
+product_material: 'Cotton',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f22"),
+id: '4',
+product_name: 'Gorgeous Plastic Pants',
+product_price: 492,
+product_material: 'Soft',
+product_color: 'plum'
+},
+{
+_id: ObjectId("65aa97989064816bae423f28"),
+id: '10',
+product_name: 'Generic Wooden Pizza',
+product_price: 84,
+product_material: 'Frozen',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f2f"),
+id: '17',
+product_name: 'Incredible Metal Car',
+product_price: 36,
+product_material: 'Fresh',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f37"),
+id: '25',
+product_name: 'Licensed Steel Car',
+product_price: 20,
+product_material: 'Cotton',
+product_color: 'indigo'
+}
+]
+[
+{
+_id: ObjectId("65aa97989064816bae423f20"),
+id: '2',
+product_name: 'Practical Fresh Sausages',
+product_price: 911,
+product_material: 'Cotton',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f22"),
+id: '4',
+product_name: 'Gorgeous Plastic Pants',
+product_price: 492,
+product_material: 'Soft',
+product_color: 'plum'
+},
+{
+_id: ObjectId("65aa97989064816bae423f28"),
+id: '10',
+product_name: 'Generic Wooden Pizza',
+product_price: 84,
+product_material: 'Frozen',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f2f"),
+id: '17',
+product_name: 'Incredible Metal Car',
+product_price: 36,
+product_material: 'Fresh',
+product_color: 'indigo'
+},
+{
+_id: ObjectId("65aa97989064816bae423f37"),
+id: '25',
+product_name: 'Licensed Steel Car',
+product_price: 20,
+product_material: 'Cotton',
+product_color: 'indigo'
+}
+] -->
+----------------------------------------9
+
+
+
+<!-- db.collectionname.find({$or:[{product_color: {$eq:"indigo"}}, {product_price: {$eq:492}}] });
+db.collectionname.find({$or:[{product_color: "indigo"}, {product_price: 492}] });
+
+db.collectionanme.find({$and:[{product_color: {$eq:"indigo"}}, {product_price: {$eq:492}}] }); -->
+Find products which contain product color indigo and product price 492.00__________9
+[
+{
+"id": "4",
+"product_name": "Gorgeous Plastic Pants",
+"product_price": 492.00,
+"product_material": "Soft",
+"product_color": "plum"
+},
+{
+"id": "25",
+"product_name": "Licensed Steel Car",
+"product_price":20.00,
+"product_material": "Cotton",
+"product_color": "indigo"
+}
+{
+"id": "2",
+"product_name": "Practical Fresh Sausages",
+"product_price": 911.0,
+"product_material": "Cotton",
+"product_color": "indigo"
+},
+{
+"id": "10",
+"product_name": "Generic Wooden Pizza",
+"product_price": 84.00,
+"product_material": "Frozen",
+"product_color": "indigo"
+},
+{
+"id": "17",
+"product_name": "Incredible Metal Car",
+"product_price":36.00,
+"product_material": "Fresh",
+"product_color": "indigo"
+},
+Delete the products which product price value are same_________10
+
+
+</body>
+</html>
